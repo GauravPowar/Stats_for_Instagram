@@ -1,7 +1,7 @@
 # Instagram Stats Project License  
 **Author:** [Gaurav Powar](https://github.com/GauravPowar) (@GauravPowar)  
 
-**Copyright © 2024 Gaurav Powar**  
+**Copyright © 2025 Gaurav Powar**  
 
 ## Terms and Conditions  
 
