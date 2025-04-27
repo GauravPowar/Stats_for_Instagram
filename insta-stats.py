@@ -21,8 +21,8 @@ def categorize_follow_data(followers_path, following_path, output_path="Instagra
 
     df = pd.DataFrame({
         "Mutual Follows": pd.Series(mutual),
-        "Followers I Don’t Follow Back": pd.Series(followers_only),
-        "Following Who Don’t Follow Me Back": pd.Series(following_only)
+        "Followers Only": pd.Series(followers_only),
+        "Following Only": pd.Series(following_only)
     })
     df.to_excel(output_path, index=False)
     return output_path
